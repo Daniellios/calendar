@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
   *, *::before, *::after {
@@ -31,7 +31,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: ${(props) => props.theme.fonts.title};
     font-size: 1.6rem;
     background-color:  ${(props) => props.theme.colors.white};
-    color: ${(props) => props.theme.colors.white};
+    color: ${(props) => props.theme.colors.primary1};
     cursor: default;
   }
   h1,h2,h3,h4,h5,h6,button {
@@ -41,8 +41,24 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
     color: ${(props) => props.theme.colors.primary1};
   }
+  h1{
+    font-size: 2rem;
+    font-weight: 200;
+  }
+  h2{
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
   li{
     list-style: none;
+  }
+
+  button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    outline: none;
   }
     
   #root, #__next {
@@ -50,6 +66,6 @@ const GlobalStyles = createGlobalStyle`
     height: 100%;
   }
 
-`;
+`
 
-export default GlobalStyles;
+export default GlobalStyles

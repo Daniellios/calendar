@@ -1,4 +1,4 @@
-export type ThemeType = typeof theme;
+export type ThemeType = typeof theme
 
 export const theme = {
   // FONTS
@@ -8,8 +8,9 @@ export const theme = {
   },
   // COLORS
   colors: {
-    primary1: '#53585a',
+    primary1: '#000000',
     white: '#FFFFFF',
+    gray: 'rgba(170, 170, 170, 0.8)',
   },
   // BREAKPOINTS
   breakpoints: {
@@ -18,6 +19,6 @@ export const theme = {
     lg: 'screen and (max-width: 1024px)',
     xl: 'screen and (max-width: 1280px)',
   },
-};
+}
 
-export default theme;
+export default theme

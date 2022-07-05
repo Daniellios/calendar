@@ -45,5 +45,5 @@ Head.defaultProps = {
   ogImage: '',
   ogTitle: 'Next Starter ⚡️: Ready to production',
   ogUrl: '',
-  title: 'Next Starter',
+  title: 'Interview Calendar',
 }
