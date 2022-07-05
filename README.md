@@ -1,1 +1,1 @@
-My Setup with React, Redux, Next, Styled Compomnents
+Test Task for Vacancy / Тестовое задание для вакансии
